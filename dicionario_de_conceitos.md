@@ -8,9 +8,12 @@
 
 # PASSO A PASSO DO CURSO
 Criar uma pasta no desktop que será usada pelo git
-Abrir o vscode, entrar na pasta que vc criou dentro do vscode para ele reconhecer a pasta. Abrir um terminal executando o wsl dentro do vscode.
+Abrir o vscode, entrar na pasta que vc criou dentro do vscode para ele reconhecer a pasta (file, open folder e abrir a pasta que vc criou). Abrir um terminal executando o wsl dentro do vscode
+abrir um arquivo novo -  new file - e gravar com .md dentro da pasta. Este arquivo tem os scripts que vc quer salva. salvar sempre a versao que vc quer.
 Entrar na pasta que vc criou pelo terminal do vscode na linha de comando
-usar o comando "git init"
+usar o comando "git init" para iniciar o git dentro da sua pasta na linha de comando
+para salvar um ponto na linha do tempo - git add nomedoarquivo.md - isso vc faz a cada versao do seu arquivo, pois ele cria um backup do arquivo modificado na sua linha do tempo
+
 
 # comandos
 pwd monstra onde está
