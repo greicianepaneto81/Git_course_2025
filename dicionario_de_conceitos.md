@@ -8,9 +8,15 @@
 
 ## Áreas conceituais
 
-- área de desenvolvimento: é o local do meu computado que consta a pasta que foi criadas para o git, onde vc edita os arquivos no seu computador.
-- area_de_staging_:  area e preparo para triagem do que será enviado para o git.
-- repositório local: é o local onde vao os comites, as versões dos meus arquivos e projetos existem. este é encontrado como forma de arquivo na pasta .git que deve ser protegida com a minha própria vida, perdeu este arquivo, perdeu tudo se nao estiver salvo no github
+- área de desenvolvimento: é o local do meu computado que consta a pasta que foi criadas para o git, onde vc edita os arquivos no seu computador. (é um arquivo colocado na pasta)
+- area_de_staging_:  area e preparo para triagem do que será enviado para o git. (é o arquivo que vc colocou na pasta e foi previamente visto pelo programa git)
+- repositório local: é o local onde vao os comites, as versões dos meus arquivos e projetos existem. este é encontrado como forma de arquivo na pasta .git que deve ser protegida com a minha própria vida, perdeu este arquivo, perdeu tudo se nao estiver salvo no github (é o arquivo visto pelo git e atualizado que aparece na linha do tempo)
+
+# Rotina básica do git
+save
+git status (conferir em qual área conceitual meu arquivo está)
+git add nomedoarquivo
+git commit -m "mensagem relevante"
 
 ## Quando usar git status e como entender os resultados
 Usar o comando git status para saber o status dos arquivos e ver as versões que eles estão (se estão atualizados)
@@ -18,6 +24,7 @@ Usar o comando git status para saber o status dos arquivos e ver as versões que
 uncommited = não foi atualizada a versão e não está com comentários - o arquivo encontra-se na area staging, o que significa que eu já fiz "git add" 
 unstaged = arquivo com mudanças que não foram enviadas para a área staging, o que significa que eu preciso dar git add e git commit -m
 untraked = existe um arquivo novo sem nenhuma versão salva
+
 
 # PASSO A PASSO DO CURSO
 Criar uma pasta no desktop que será usada pelo git
