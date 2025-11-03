@@ -12,6 +12,6 @@ git config --global user.email (meu email cadastrado no github)
 git add nomedoarquivo.md ou .txt ou .py ou .pdf, etc (vc pode adicionar vários arquivos de uma unica vez em lista)
 git commit -m "mensagem relevante"
 
-## Pergunta pro git o status de cada um dos arquivos da pasta
+## Pergunta pro git o status de cada um dos arquivos da pasta (se os arquivos estão atualizados e com comentários)
 git status
 

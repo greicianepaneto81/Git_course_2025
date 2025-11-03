@@ -12,6 +12,13 @@
 - area_de_staging_:  area e preparo para triagem do que será enviado para o git.
 - repositório local: é o local onde vao os comites, as versões dos meus arquivos e projetos existem. este é encontrado como forma de arquivo na pasta .git que deve ser protegida com a minha própria vida, perdeu este arquivo, perdeu tudo se nao estiver salvo no github
 
+## Quando usar git status e como entender os resultados
+Usar o comando git status para saber o status dos arquivos e ver as versões que eles estão (se estão atualizados)
+
+uncommited = não foi atualizada a versão e não está com comentários - o arquivo encontra-se na area staging, o que significa que eu já fiz "git add" 
+unstaged = arquivo com mudanças que não foram enviadas para a área staging, o que significa que eu preciso dar git add e git commit -m
+untraked = existe um arquivo novo sem nenhuma versão salva
+
 # PASSO A PASSO DO CURSO
 Criar uma pasta no desktop que será usada pelo git
 Abrir o vscode, entrar na pasta que vc criou dentro do vscode para ele reconhecer a pasta (file, open folder e abrir a pasta que vc criou). Abrir um terminal executando o wsl dentro do vscode
