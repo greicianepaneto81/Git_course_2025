@@ -49,6 +49,13 @@ depois vc pede o git do computador para mandar pro github com o comando "git pus
 as vezes dá uns bugs que precisam ser resolvidos
 isso irá gravar uma copia no github - se vc atualizar algo via github vc precisa mandar pro seu computador via "git pull"
 
+# git push e git pull
+só servem para vc enviar e trazer arquivos que vc já tem no seu computador
+
+# git clone
+vc usa quando quer baixar os arquivos de um projeto de outra pessoa que está no github para fazer colaboração. mas antes vc tem que pedir a colaboração em settings, collaborators e achar ele e enviar o pedido. o pedido vai por email e ele precisa aceitar
+
+#
 git log mostra todas as modificações que foram feitas
 
 # comandos
