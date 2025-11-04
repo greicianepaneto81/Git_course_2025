@@ -36,6 +36,7 @@ para salvar um ponto (versao) na linha do tempo - git add nomedoarquivo.md - iss
 para informar a mudança que houve no arquivo usar o comando git commit -m "definicao de conceitos de git e github" - indica o nome da versao que será salva na linha do tempo - colocar a informação do que foi modificado pra vc lembrar depois - pq, como , efeitos e limitações - mensagem mais completa possível entre aspas
 pode ser que ele te peça para colocar seu nome e email, ele indicará qual comando usar
 a cada vez que for adicinada uma versao na linha do tempo precisa do comando "git add" e depois o "git commit -m"
+git push é o comando que manda os arquivos para o github e salva lá
 
 # no github
 logar e ir no profile ... repositório ...novo repositório
