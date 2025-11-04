@@ -17,6 +17,7 @@ save
 git status (conferir em qual área conceitual meu arquivo está)
 git add nomedoarquivo
 git commit -m "mensagem relevante"
+git push (somente quando vc quer mandar os arquivos para o github pra salvar e aparecer lá)
 
 ## Quando usar git status e como entender os resultados
 Usar o comando git status para saber o status dos arquivos e ver as versões que eles estão (se estão atualizados)
@@ -55,10 +56,16 @@ pwd monstra onde está
 cd entra na pasta que vc escreve depois
 cd .. é sair
 
-# arquivo readme.txt
+# arquivo readme.md (abre como arquivo de texto mas salva com extensão md)
 arquivo que explica o que é o projeto, o que faz, como usa e como instala
 é um sumário
 pode ser para um programa, um curso, etc
+
+# arquivo .gitignore
+é um arquivo sem extensão (vc abre como arquivo texto mas nao coloca extensão)
+neste arquivo vc coloca o nome dos arquivos que vc quer que ele ignore, tipo arquivos de sequenciamentos, backup, etc, lembrando de colocar a extensão
+se colocar asterisco =  *.csv vai ignorar todos os arquivos csv , !dataset.csv ignora todos com exceção deste, # faz um comentário
+nao precisa fazer o commit pq vc quer que estes arquivos sejam ignorados
 
 # Obs.
 
