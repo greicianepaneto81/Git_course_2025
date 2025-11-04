@@ -37,14 +37,27 @@ para informar a mudança que houve no arquivo usar o comando git commit -m "defi
 pode ser que ele te peça para colocar seu nome e email, ele indicará qual comando usar
 a cada vez que for adicinada uma versao na linha do tempo precisa do comando "git add" e depois o "git commit -m"
 
+# no github
+logar e ir no profile ... repositório ...novo repositório
+preencher somente o nome do repositorio que vai aparecer e se vai ser publico ou privado, nao clicar em mais nada e criar
+vai ser criado um comando que será a ponte da pasta no seu computador com o github
+por ex. git remote add origin https://github.com/greicianepaneto81/Git_course_2025.git
+este comando vc copia e roda no terminal do vscode dentro da pasta do seu projeto
+depois vc pede o git do computador para mandar pro github com o comando "git push"
+as vezes dá uns bugs que precisam ser resolvidos
+isso irá gravar uma copia no github - se vc atualizar algo via github vc precisa mandar pro seu computador via "git pull"
 
-
+git log mostra todas as modificações que foram feitas
 
 # comandos
 pwd monstra onde está
 cd entra na pasta que vc escreve depois
 cd .. é sair
 
+# arquivo readme.txt
+arquivo que explica o que é o projeto, o que faz, como usa e como instala
+é um sumário
+pode ser para um programa, um curso, etc
 
 # Obs.
 
